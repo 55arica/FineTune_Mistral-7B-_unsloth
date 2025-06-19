@@ -1,0 +1,19 @@
+
+
+
+| Library             | Why You Need It                                                          |
+| ------------------- | ------------------------------------------------------------------------ |
+| `bitsandbytes`      | Enables **8-bit/4-bit quantization** — faster, memory-efficient training |
+| `accelerate`        | Makes training work well on CPU/GPU/TPU                                  |
+| `xformers`          | Speeds up transformer models                                             |
+| `peft`              | For **Parameter-Efficient Fine-Tuning** (like LoRA)                      |
+| `trl`               | Tools for training LLMs with RLHF (optional)                             |
+| `triton`            | Low-level compiler to optimize performance                               |
+| `cut_cross_entropy` | Optimized loss function for faster training                              |
+| `unsloth_zoo`       | Contains preloaded model templates like Mistral                          |
+| `unsloth`           | 🔥 The main library you're using to fine-tune LLMs                       |
+| `sentencepiece`     | Helps tokenize text (used with some models)                              |
+| `protobuf`          | Needed for model saving/loading formats                                  |
+| `datasets`          | To load and handle datasets (like from Hugging Face)                     |
+| `huggingface_hub`   | Lets you download/upload models from Hugging Face                        |
+| `hf_transfer`       | Makes downloading large models **faster** from Hugging Face              |
