@@ -5,6 +5,13 @@ from datasets import load_dataset
 from trl import SFTTrainer
 from transformers import Trainer, TrainingArguments
 
+
+# from transformers import AutoTokenizer, AutoModelForCausalLM
+
+# tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1")
+# model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-v0.1")
+
+
 model, tokenizer = FastLanguageModel.from_pretrained(
     model_name = "mistralai/Mistral-7B-v0.1", 
     max_seq_length = 2048
