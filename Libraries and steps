@@ -1,0 +1,25 @@
+pip install unsloth torch transformers trl datasets accelerate bitsandbytes peft sentencepiece scipy tqdm
+
+
+
+
+Loading a Mistral-7B model
+
+Applying LoRA (efficient fine-tuning)
+
+Preparing a chat dataset in the right format
+
+Using SFTTrainer to fine-tune the model
+
+Saving it in GGUF format for fast deployment (e.g. with llama.cpp)
+
+Step
+1	Load model/tokenizer
+2	Enable LoRA
+3	Setup chat format
+4	Load chat dataset
+5	Convert JSON chat → text format
+6	Setup trainer
+7	Configure training arguments
+8	Fine-tune model
+9	Save the trained model in compact format
